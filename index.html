@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YawixBio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #2f3136; 
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            background: #202225; 
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .banner-container {
+            width: 100%;
+            height: 200px;
+            background-image: url('image/banner.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .avatar {
+            position: absolute;
+            top: 120px; 
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px; 
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: #333; 
+            border: 5px solid #7289da; 
+            z-index: 1; 
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .intro {
+            padding: 20px;
+            margin-top: 60px; 
+        }
+
+        .intro h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .intro h2 {
+            font-size: 20px;
+            font-weight: 400;
+            margin: 5px 0 0 0;
+            color: #ddd;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            padding-bottom: 20px; 
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .social-links a:active {
+            color: #333;
+            background-color: #ddd;
+        }
+
+        .social-links i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <div class="banner-container">
+        </div>
+        <div class="avatar">
+            <img src="image/ava.jpg" alt="Аватар">
+        </div>
+        <div class="intro">
+            <h1>97% Java govno coding!</h1>
+            <h2>Vara-Strees founder🍀</h2>
+        </div>
+        <div class="social-links">
+            <a href="https://discord.com/users/1269194650753695796" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://t.me/podvalnyjhoster" target="_blank">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://github.com/yawixooo" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://steamcommunity.com/id/filpperzero/" target="_blank">
+                <i class="fab fa-steam"></i>
+            </a>
+            <a href="https://dsc.gg/varanet" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
